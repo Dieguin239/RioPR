@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Auditoria\" />
+    <Folder Include="Views\DetalleSolicitudes\" />
+    <Folder Include="Views\Empresas\" />
+    <Folder Include="Views\InformesMecanicos\" />
+    <Folder Include="Views\Inventario\" />
+    <Folder Include="Views\Mantenimientos\" />
+    <Folder Include="Views\Solicitud\" />
+    <Folder Include="Views\Sectores\" />
+    <Folder Include="Views\SalidaInventario\" />
+    <Folder Include="Views\Roles\" />
+    <Folder Include="Views\Reportes\" />
+    <Folder Include="Views\RelacionIngenierosEmpresas\" />
+  </ItemGroup>
+
+</Project>
